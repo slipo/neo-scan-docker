@@ -36,4 +36,4 @@ That allows you to connect to the privnet NEO nodes with the URLs returned by th
 
 OK, if you waited a few minutes, it should be ready. Check: http://localhost:4000/. You should see neo-scan with some blocks.
 
-For information about the privnet setup, including the keys to your assets check [the neo-privnet-with-gas documentation](https://hub.docker.com/r/metachris/neo-privnet-with-gas/)
+For information about the privnet setup, including the keys to your assets check [the neo-privnet-with-gas documentation](https://hub.docker.com/r/cityofzion/neo-privatenet)
