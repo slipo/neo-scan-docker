@@ -23,6 +23,7 @@ ENV NEO_SEED_4="http://neo-privnet:30336"
 
 RUN mix deps.get
 RUN cd apps/neoscan_web/assets && npm install
+RUN mix compile
 
 EXPOSE 4000
 
