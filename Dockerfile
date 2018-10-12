@@ -5,7 +5,7 @@ RUN apk update && apk upgrade && \
 
 # Replace with regular neo-scan after this is merged:
 # https://github.com/CityOfZion/neo-scan/pull/118
-RUN git clone https://github.com/slipo/neo-scan.git /data
+RUN git clone https://github.com/CityOfZion/neo-scan.git /data
 
 WORKDIR /data
 
